@@ -16,7 +16,7 @@ function rot13(encodedStr){
      let outputString="";
 	for(let i=0;i<encodedStr.length;i++){
 		if(encodedStr[i]===undefined){
-			outputStrinf[i]=encodedStr[i];
+			outputString+=encodedStr[i];
 		}
 		else{
 			outputString+=lookup[encodedStr[i]];
